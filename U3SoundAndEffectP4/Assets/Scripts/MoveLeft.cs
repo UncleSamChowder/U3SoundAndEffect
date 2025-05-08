@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MoveLeft : MonoBehaviour
 {
@@ -8,12 +9,12 @@ public class MoveLeft : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * speed);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(Vector3.left * Time.deltaTime * speed);
     }
 }
